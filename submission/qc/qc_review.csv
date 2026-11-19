@@ -1,0 +1,9 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,19,sai_vi_tri_kich_thuoc,Claude (AI),"three_wheeler (xe ba gác chở rau): mép phải box ~772 px trong khi mui/thùng xe kết thúc ~740-755 px, lỏng > 2 px"
+img_006.jpg,,bo_sot,Claude (AI),"hàng xe máy đỗ sát giữa #62 và #70 (x ~400-500): ít nhất 2 xe cao > 20 px chưa có box, cũng không có ignore_region"
+img_013.jpg,102,sai_lop,Claude (AI),"#102 là xe buýt đỏ ở xa (x ~935-990), đang gán car"
+img_013.jpg,,bo_sot,Claude (AI),"xe van trắng sau biển TAXI (x ~835-940, y ~90-230) không có box car"
+img_013.jpg,,bo_sot,Claude (AI),"2 xe máy đỗ bên phải (đỏ y ~170-360 và trắng y ~300-450) nhưng chỉ có 1 box #103"
+img_014.jpg,111,thua,Claude (AI),"#111 three_wheeler 0.19 ở mép trái là kệ / thùng gỗ của quầy hàng, không phải xe"
+img_025.jpg,263,sai_lop,Claude (AI),"#263 gán bicycle (box can_review) nhưng là xe tay ga màu đen có sàn để chân -> motorbike (CAL-03)"
+img_033.jpg,,khong,Claude (AI),"ảnh hoàng hôn, các vật cao >= 20 px đều có box; không thấy lỗi rõ"
