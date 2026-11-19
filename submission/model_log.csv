@@ -3,3 +3,5 @@ r01,2,yolo26-s,--model yolo26 --size s --split pilot --conf 0.25 --device cpu --
 r02,2,yolo26-s,--model yolo26 --size s --split pilot --conf 0.5 --device cpu --out work/prelabel/t_y26_c05,pilot,131,0.48,,,
 r03,2,yoloe-s,--model yoloe --classes three_wheeler --split pilot --conf 0.25 --device cpu --out work/prelabel/t_yoloe,pilot,8,0.53,,,
 r04,2,yolo26-s+sam(sam2.1_b.pt),"--model yolo26 --size s --classes person,motorbike,car --images img_004.jpg img_013.jpg --conf 0.3 --segmenter sam --sam sam2.1_b.pt --device cpu --out work/prelabel/t_sam",custom,10,6.93,,,
+r05,2,yolo26-s,--model yolo26 --size s --split all --conf 0.05 --device cpu --out work/prelabel/y26_all --no-viz,all,1647,0.49,,,
+r06,2,yoloe-s,--model yoloe --classes three_wheeler --split all --conf 0.05 --device cpu --out work/prelabel/yoloe_all --no-viz,all,125,0.49,,,
