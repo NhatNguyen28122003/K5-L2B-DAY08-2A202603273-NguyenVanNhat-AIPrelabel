@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): <<>>
 - Tài khoản GitHub: NhatNguyen28122003
 - Repo bài nộp (URL): https://github.com/NhatNguyen28122003/K5-L2B-DAY08-2A202603273-NguyenVanNhat-AIPrelabel
-- Commit chốt bài (hash): <<>>
+- Commit chốt bài (hash): fdee054
 - Máy: Windows 11, không GPU (CPU only, torch 2.15 cpu)
 - CVAT (Docker): v2.74.1
 
